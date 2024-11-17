@@ -3,6 +3,7 @@ Data Projects (TripleTen)
  #Project_17
 
 Project-17: Customer Churn Prediction for the Telecom Operator Interconnect
+
 Project Overview
 This project focuses on predicting customer churn for Interconnect, a telecom operator. The goal is to develop a predictive model to identify customers who are at risk of leaving, allowing the marketing team to offer promotions or special plans to retain them. By analyzing customer data, including personal information, service usage, and contract details, we aim to predict the likelihood of customer churn using several machine learning models.
 
