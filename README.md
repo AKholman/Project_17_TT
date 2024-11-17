@@ -1,5 +1,5 @@
 Data Projects (TripleTen)
-# Project_17_TT
+#Project_17
 
 Project-17: Customer Churn Prediction for the Telecom Operator Interconnect
 Project Overview
