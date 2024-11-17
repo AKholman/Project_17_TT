@@ -95,9 +95,7 @@ Requirements
 The following libraries are required to run the project:
 
   import pandas as pd
-  
   import numpy as np
-  
   from matplotlib import pyplot as plt
   
   from sklearn.model_selection import train_test_split
