@@ -70,21 +70,35 @@ Requirements
 The following libraries are required to run the project:
 
   import pandas as pd
+  
   import numpy as np
+  
   from matplotlib import pyplot as plt
+  
   from sklearn.model_selection import train_test_split
+  
   from sklearn.compose import ColumnTransformer
+  
   from sklearn.preprocessing import OneHotEncoder, StandardScaler, FunctionTransformer
+  
   from sklearn.pipeline import Pipeline
+  
   from sklearn.linear_model import LogisticRegression
+  
   from sklearn.metrics import accuracy_score,f1_score, roc_auc_score, roc_curve, auc
+  
   from sklearn.ensemble import RandomForestClassifier
+  
   from sklearn.model_selection import GridSearchCV
+  
   from lightgbm import LGBMClassifier
+  
   from xgboost import XGBClassifier 
+  
   from catboost import CatBoostClassifier 
 
 
 Conclusion
+
 Based on the results, CatBoost is recommended as the best model for predicting customer churn. It not only achieved a high ROC-AUC score on the test set but also provided better generalization compared to other models. By using the fine-tuned CatBoost model, Interconnect can effectively forecast which customers are at risk of churn and take proactive actions to retain them.
 
