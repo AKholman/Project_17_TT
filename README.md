@@ -14,9 +14,13 @@ Dataset
 The dataset consists of several files, each containing different information related to customer behavior and service usage:
 
 contract.csv — Contains details about the customer's contract, such as contract type, payment methods, and terms.
+
 personal.csv — Contains personal information about customers like their demographic details.
+
 internet.csv — Contains information about internet services the customer uses, such as whether they have DSL or fiber optic internet.
+
 phone.csv — Contains data related to the customer's telephone services.
+
 Each dataset includes the column customerID, which uniquely identifies each customer.
 
 Target Feature:
@@ -55,14 +59,14 @@ The performance of each model is assessed, and the best model is selected based 
 Results
 
 |         Models	        |    Dataset	   |    Accuracy  |	  F1 Score  | 	ROC-AUC  |
-|------------------------------------------------------------------------------------|
-|  Logistic Regression	   |   Validation	 |    0.735	    |    0.595	  |   0.819    |
-| Random Forest Classifier |	 Validation	 |    0.752	    |    0.593    | 	0.819    |
-|  LightGBM	               |   Validation  |	  0.747	    |    0.599	  |   0.831    |
-|  XGBoost	               |   Validation	 |    0.806     |	   0.565	  |   0.836    |
-|  CatBoost                | 	 Validation	 |    0.793	    |    0.561	  |   0.842    |
-|  CatBoost	               |   Test	       |    0.801	    |    0.573	  |   0.861    |
-|------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|
+|  Logistic Regression	   |   Validation	 |    0.735	    |    0.595	  |   0.819   |
+| Random Forest Classifier |	 Validation	 |    0.752	    |    0.593    | 	0.819   |
+|  LightGBM	               |   Validation  |	  0.747	    |    0.599	  |   0.831   |
+|  XGBoost	               |   Validation	 |    0.806     |	   0.565	  |   0.836   |
+|  CatBoost                | 	 Validation	 |    0.793	    |    0.561	  |   0.842  |
+|  CatBoost	               |   Test	       |    0.801	    |    0.573	  |   0.861  |
+|---------------------------------------------------------------------------------|
 
 After fine-tuning the models' hyperparameters, CatBoost emerged as the best model, achieving a ROC-AUC of 0.861 on the test set, making it the most reliable model for churn prediction.
 
