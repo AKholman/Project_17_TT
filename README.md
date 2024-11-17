@@ -56,6 +56,7 @@ Analyzing the distribution of customer demographics and contract details.
 
 Visualizing correlations between features and churn.
 
+
 Step 3: Model Development
 
 Several machine learning models are trained and evaluated for predicting churn:
@@ -95,7 +96,9 @@ Requirements
 The following libraries are required to run the project:
 
   import pandas as pd
+  
   import numpy as np
+  
   from matplotlib import pyplot as plt
   
   from sklearn.model_selection import train_test_split
